@@ -26,7 +26,7 @@ describe('Submit feedback', () => {
             screenShot: 'data:image/png;base64,dsadasdsadsasd',
         })).rejects.toThrow();
     });
-    it('should not be able to submit feedback width an invalid screenshot', async () => {
+    it('should not be able to submit feedback width an invalid screenShot', async () => {
         await expect(submitFeedback.execute({
             type: 'BUG',
             comment: 'example',
