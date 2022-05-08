@@ -8,7 +8,7 @@ app.use(cors()); // permitir o front-end com o back-end
 app.use(express.json());
 app.use(routes);
 
-const door = 3333;
+const door = process.env.PORT || 3333;
 app.listen(door, () => {
   console.log(`Server runing on ${door}...`);
 });
