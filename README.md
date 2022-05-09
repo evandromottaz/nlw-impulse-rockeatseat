@@ -9,3 +9,5 @@ ferramentas de simulação de email (Mailtrap),
 tailwind e configurações,
 api phosphor,
 entre outros.
+
+![imagem do projeto](https://github.com/evandromottaz/nlw-impulse-rockeatseat/tree/main/web/src/assets/feedback.png)
